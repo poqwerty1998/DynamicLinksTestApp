@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "138802209090",
+    "project_id": "dynamiclinkstestapp-afb17",
+    "storage_bucket": "dynamiclinkstestapp-afb17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138802209090:android:920c507a8bbb5dfe7968db",
+        "android_client_info": {
+          "package_name": "com.angus.dynamiclinkstestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138802209090-7nqtnif9qo1ulge9gpmrpl27gkj0pdmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.angus.dynamiclinkstestapp",
+            "certificate_hash": "47f52f21af81863ce78482d12f8334fbf89ac7a1"
+          }
+        },
+        {
+          "client_id": "138802209090-schs9vgmeqn2le51bl0gm44eseich04l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA2VBjiGtJHr7aBZH4jXa708OgvY-844A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138802209090-schs9vgmeqn2le51bl0gm44eseich04l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138802209090:android:f3326b9171660a347968db",
+        "android_client_info": {
+          "package_name": "com.example.dynamiclinkstestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138802209090-schs9vgmeqn2le51bl0gm44eseich04l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA2VBjiGtJHr7aBZH4jXa708OgvY-844A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138802209090-schs9vgmeqn2le51bl0gm44eseich04l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

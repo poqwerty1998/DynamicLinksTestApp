@@ -1,4 +1,4 @@
-package com.example.dynamiclinkstestapp
+package com.angus.dynamiclinkstestapp
 
 import org.junit.Test
 
