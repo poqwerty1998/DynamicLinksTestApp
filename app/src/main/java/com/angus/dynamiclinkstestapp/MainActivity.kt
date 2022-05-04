@@ -23,14 +23,13 @@ class MainActivity : AppCompatActivity() {
                 if (pendingDynamicLinkData != null) {
                     // link data
                     deepLink = pendingDynamicLinkData.link
-                    /*if (deepLink.toString() == "https://angusdynamiclinkstest.com/?msg=Hello") {
-                        R.id
-                    }*/
-                    // first parameter
-                    val msgParameter = deepLink?.getQueryParameters("msg")?.get(0)
-                    Toast.makeText(this, msgParameter, Toast.LENGTH_LONG).show()
                 }
 
+                if (deepLink != null) {
+                    // first parameter
+                    val msgParameter = deepLink.getQueryParameters("msg")?.get(0)
+                    Toast.makeText(this, msgParameter, Toast.LENGTH_LONG).show()
+                }
 
                 // Handle the deep link. For example, open the linked
                 // content, or apply promotional credit to the user's
